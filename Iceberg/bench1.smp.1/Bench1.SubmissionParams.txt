@@ -1,1 +1,1 @@
-qsub -pe openmp 1 -j y -l h_rt=00:15:00 -l rmem=24G /usr/local/packages6/shef/ansys/batch/ansys161job bench01.inp 1 -b -m=24000   -dis -np 12 -j ../output
+qsub -pe openmp 1 -j y -l h_rt=00:15:00 -l rmem=24G /usr/local/packages6/shef/ansys/batch/ansys161job bench01.inp 1 -b -m=24000   -dis -np 1 -j ../output
