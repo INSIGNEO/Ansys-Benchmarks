@@ -1,0 +1,2008 @@
+ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'compilers/intel/11.0'
+Parameters to Ansys are: Input file= bench01.inp  Extra parameters:  -m=24000 -np 1 -j output
+
+ ANSYS Academic Research                           
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS Release 16.1     LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 2015 SAS IP, Inc.  All rights reserved.           *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2008 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+
+ AFTER YOU HAVE READ, UNDERSTOOD, AND AGREED TO THE PREVIOUS NOTICES,
+ PRESS <CR> OR <ENTER> TO CONTINUE
+ Release 16.1
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. Products Release 16.1   
+ ANSYS Mechanical Products Release 16.1  
+ ANSYS Customization Files for User Programmable Features Release 16.1   
+ ANSYS Autodyn Release 16.1  
+ ANSYS LS-DYNA Release 16.1  
+ ANSYS CFX (includes ANSYS CFD-Post) Release 16.1
+ ANSYS Fluent (includes ANSYS CFD-Post) Release 16.1 
+ ANSYS TurboGrid Release 16.1
+ ANSYS Polyflow (includes ANSYS CFD-Post) Release 16.1   
+ ANSYS CFD-Post only Release 16.1
+ ANSYS ICEM CFD Release 16.1 
+ ANSYS Composite PrepPost Release 16.1   
+ ANSYS Icepak (includes ANSYS CFD-Post) Release 16.1 
+ ANSYS Remote Solve Manager Standalone Services Release 16.1 
+ ANSYS, Inc. License Manager Release 16.1
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  INITIAL JOBNAME              = output                                                                                                                                                                                                                                                  
+  SHARED MEMORY PARALLEL REQUESTED
+    SINGLE PROCESS WITH SINGLE THREAD REQUESTED
+    TOTAL OF     1 CORES REQUESTED
+  DESIGNXPLORER REQUESTED
+  MEMORY REQUESTED (MB)        = 24000       
+
+ RELEASE= Release 16.1         BUILD= 16.1      UP20150325   VERSION=LINUX x64   
+ CURRENT JOBNAME=output  15:29:09  NOV 30, 2017 CP=      0.309
+
+
+ RUN SETUP PROCEDURE FROM FILE= /usr/local/packages/apps/ansys/16.1/v161/ansys/apdl/start161.ans
+
+ /INPUT FILE= /usr/local/packages/apps/ansys/16.1/v161/ansys/apdl/start161.ans  LINE=       0
+
+ BEGIN:
+
+ BEGIN:
+
+ CLEAR DATABASE AND RERUN START.ANS
+
+ *** WARNING ***                         CP =       0.407   TIME= 15:29:09
+ /CLEAR destroys the effects of all previous input and starts a new      
+ database.                                                               
+ Should the /CLE command be executed? [y/n]
+
+ *** NOTE ***                            CP =       0.407   TIME= 15:29:09
+ *** The /CLEAR command aborted ***                                      
+
+ BEGIN:
+
+ VIEW UP DIRECTION FOR WINDOW 1 IS GCS  Z AXIS
+
+ BEGIN:
+
+ BEGIN:
+
+ PARAMETER PINUM =     6.000000000    
+
+ BEGIN:
+
+ PARAMETER PIWID =    0.2093600000E-03
+
+ BEGIN:
+
+ PARAMETER PIHT =    0.2717800000E-03
+
+ BEGIN:
+
+ PARAMETER PILEN =    0.1300000000E-01
+
+ BEGIN:
+
+ BEGIN:
+
+ PARAMETER PONUM =     5.000000000    
+
+ BEGIN:
+
+ PARAMETER POWID =    0.4064000000E-04
+
+ BEGIN:
+
+ PARAMETER POHT =    0.2717800000E-03
+
+ BEGIN:
+
+ PARAMETER POLEN =    0.1300000000E-01
+
+ BEGIN:
+
+ BEGIN:
+
+ PARAMETER BOTHT =    0.1270000000E-01
+
+ BEGIN:
+
+ PARAMETER TOPHT1 =    0.2126000000E-03
+
+ BEGIN:
+
+ PARAMETER TOPHT2 =    0.1378000000E-03
+
+ BEGIN:
+
+ BEGIN:
+
+ PARAMETER LENHT =    0.2280000000E-02
+
+ BEGIN:
+
+ PARAMETER LENRAD =    0.8000000000E-01
+
+ BEGIN:
+
+ BEGIN:
+
+ PARAMETER WIDTH =    0.1459360000E-02
+
+ BEGIN:
+
+ PARAMETER LENGTH =    0.1300000000E-01
+
+ BEGIN:
+
+ PARAMETER HEIGHT =    0.1332218000E-01
+
+ BEGIN:
+
+ BEGIN:
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE Release 16.1     16.1     ***
+ ANSYS Academic Research                           
+ 00210476  VERSION=LINUX x64     15:29:09  NOV 30, 2017 CP=      0.408
+
+                                                                               
+
+
+
+          ***** ANSYS ANALYSIS DEFINITION (PREP7) *****
+
+ ENTER  /SHOW,DEVICE-NAME  TO ENABLE GRAPHIC DISPLAY
+ ENTER  FINISH             TO LEAVE PREP7
+ PRINTOUT KEY SET TO /GOPR (USE /NOPR TO SUPPRESS)
+
+ PREP7:
+
+  IMMEDIATE DISPLAY OFF
+
+ PREP7:
+
+ PREP7:
+
+ *DO LOOP ON PARAMETER= I FROM  1.0000     TO  6.0000     BY  1.0000    
+
+ PREP7:
+
+ CREATE A HEXAHEDRAL VOLUME WITH
+ X-DISTANCES FROM      0.000000000     TO     0.2093600000E-03
+ Y-DISTANCES FROM      0.000000000     TO     0.1300000000E-01
+ Z-DISTANCES FROM     0.1270000000E-01 TO     0.1297178000E-01
+
+      OUTPUT VOLUME =     1
+
+ PREP7:
+
+ *ENDDO  INDEX= I                               
+
+ PREP7:
+
+ SET ATTRIBUTES FOR ALL SELECTED VOLUMES
+      MAT =    2   REAL =       1   TYPE =    2   ESYS =    0   SECT =    0
+
+ ATTRIBUTES SET FOR      6 VOLUMES (OUT OF      6 SELECTED)
+
+ PREP7:
+
+ NONE SELECT  FOR ITEM=VOLU COMPONENT=    
+  IN RANGE         1 TO          6 STEP          1
+
+        0 VOLUMES (OF        6  DEFINED) SELECTED BY VSEL  COMMAND.
+
+ PREP7:
+
+ PREP7:
+
+ *DO LOOP ON PARAMETER= I FROM  1.0000     TO  5.0000     BY  1.0000    
+
+ PREP7:
+
+ CREATE A HEXAHEDRAL VOLUME WITH
+ X-DISTANCES FROM     0.2093600000E-03 TO     0.2500000000E-03
+ Y-DISTANCES FROM      0.000000000     TO     0.1300000000E-01
+ Z-DISTANCES FROM     0.1270000000E-01 TO     0.1297178000E-01
+
+      OUTPUT VOLUME =     7
+
+ PREP7:
+
+ *ENDDO  INDEX= I                               
+
+ PREP7:
+
+ SET ATTRIBUTES FOR ALL SELECTED VOLUMES
+      MAT =    3   REAL =       1   TYPE =    3   ESYS =    0   SECT =    0
+
+ ATTRIBUTES SET FOR      5 VOLUMES (OUT OF      5 SELECTED)
+
+ PREP7:
+
+ NONE SELECT  FOR ITEM=VOLU COMPONENT=    
+  IN RANGE         1 TO         11 STEP          1
+
+        0 VOLUMES (OF       11  DEFINED) SELECTED BY VSEL  COMMAND.
+
+ PREP7:
+
+ PREP7:
+
+ SELECT       FOR ITEM=LOC  COMPONENT=Z     BETWEEN 0.12700E-01 AND  0.12700E-01
+   KABS=  0.  TOLERANCE= 0.635000E-04
+
+       11  AREAS (OF       66  DEFINED) SELECTED BY  ASEL  COMMAND.
+
+ PREP7:
+
+ EXTRUDE ALL AREAS 
+      IN DIRECTION   0.000000    ,  0.000000    ,-0.1270000E-01
+      SCALED         0.000000    ,  0.000000    ,  0.000000    
+
+ PREP7:
+
+ SET ATTRIBUTES FOR ALL SELECTED VOLUMES
+      MAT =    1   REAL =       1   TYPE =    1   ESYS =    0   SECT =    0
+
+ ATTRIBUTES SET FOR     11 VOLUMES (OUT OF     11 SELECTED)
+
+ PREP7:
+
+ NONE SELECT  FOR ITEM=VOLU COMPONENT=    
+  IN RANGE         1 TO         22 STEP          1
+
+        0 VOLUMES (OF       22  DEFINED) SELECTED BY VSEL  COMMAND.
+
+ PREP7:
+
+ PREP7:
+
+ SELECT       FOR ITEM=LOC  COMPONENT=Z     BETWEEN 0.12972E-01 AND  0.12972E-01
+   KABS=  0.  TOLERANCE= 0.648589E-04
+
+       11  AREAS (OF      121  DEFINED) SELECTED BY  ASEL  COMMAND.
+
+ PREP7:
+
+ EXTRUDE ALL AREAS 
+      IN DIRECTION   0.000000    ,  0.000000    , 0.1378000E-03
+      SCALED         0.000000    ,  0.000000    ,  0.000000    
+
+ PREP7:
+
+ SET ATTRIBUTES FOR ALL SELECTED VOLUMES
+      MAT =    4   REAL =       1   TYPE =    4   ESYS =    0   SECT =    0
+
+ ATTRIBUTES SET FOR     11 VOLUMES (OUT OF     11 SELECTED)
+
+ PREP7:
+
+ NONE SELECT  FOR ITEM=VOLU COMPONENT=    
+  IN RANGE         1 TO         33 STEP          1
+
+        0 VOLUMES (OF       33  DEFINED) SELECTED BY VSEL  COMMAND.
+
+ PREP7:
+
+ PREP7:
+
+ SELECT       FOR ITEM=LOC  COMPONENT=Z     BETWEEN 0.13110E-01 AND  0.13110E-01
+   KABS=  0.  TOLERANCE= 0.655479E-04
+
+       11  AREAS (OF      176  DEFINED) SELECTED BY  ASEL  COMMAND.
+
+ PREP7:
+
+ EXTRUDE ALL AREAS 
+      IN DIRECTION   0.000000    ,  0.000000    , 0.2126000E-03
+      SCALED         0.000000    ,  0.000000    ,  0.000000    
+
+ PREP7:
+
+ SET ATTRIBUTES FOR ALL SELECTED VOLUMES
+      MAT =    5   REAL =       1   TYPE =    5   ESYS =    0   SECT =    0
+
+ ATTRIBUTES SET FOR     11 VOLUMES (OUT OF     11 SELECTED)
+
+ PREP7:
+
+ NONE SELECT  FOR ITEM=VOLU COMPONENT=    
+  IN RANGE         1 TO         44 STEP          1
+
+        0 VOLUMES (OF       44  DEFINED) SELECTED BY VSEL  COMMAND.
+
+ PREP7:
+
+ PREP7:
+
+ SELECT       FOR ITEM=LOC  COMPONENT=Z     BETWEEN 0.13322E-01 AND  0.13322E-01
+   KABS=  0.  TOLERANCE= 0.666109E-04
+
+       11  AREAS (OF      231  DEFINED) SELECTED BY  ASEL  COMMAND.
+
+ PREP7:
+
+ EXTRUDE ALL AREAS 
+      IN DIRECTION   0.000000    ,  0.000000    , 0.2280000E-02
+      SCALED         0.000000    ,  0.000000    ,  0.000000    
+
+ PREP7:
+
+ SET ATTRIBUTES FOR ALL SELECTED VOLUMES
+      MAT =    6   REAL =       1   TYPE =    6   ESYS =    0   SECT =    0
+
+ ATTRIBUTES SET FOR     11 VOLUMES (OUT OF     11 SELECTED)
+
+ PREP7:
+
+ NONE SELECT  FOR ITEM=VOLU COMPONENT=    
+  IN RANGE         1 TO         55 STEP          1
+
+        0 VOLUMES (OF       55  DEFINED) SELECTED BY VSEL  COMMAND.
+
+ PREP7:
+
+ PREP7:
+
+ PREP7:
+
+ SELECT ALL ENTITIES OF TYPE= ALL  AND BELOW
+
+ PREP7:
+
+  MERGE COINCIDENT NODES WITHIN TOLERANCE OF  0.10000E-07
+
+ MERGE IDENTICAL MATERIALS WITHIN TOLERANCE OF  0.10000E-07
+
+ MERGE IDENTICAL ELEMENT TYPES
+
+ MERGE IDENTICAL REAL CONSTANT SETS WITHIN TOLERANCE OF  0.10000E-07
+
+ MERGE IDENTICAL ELEMENTS
+
+ MERGE IDENTICAL COUPLED DOF SETS
+
+ MERGE IDENTICAL CONSTRAINT EQUATIONS WITHIN TOLERANCE OF 0.10000E-07
+
+ MERGE COINCIDENT KEYPOINTS WITHIN TOLERANCE OF  0.10000E-07
+ USE SOLID MODEL MERGING TOLERANCE OF  0.10000E-07
+ KEYPOINT      4 USED FOR KEYPOINT(S)      50
+ KEYPOINT      3 USED FOR KEYPOINT(S)      49
+ KEYPOINT      6 USED FOR KEYPOINT(S)      53
+ KEYPOINT      7 USED FOR KEYPOINT(S)      56
+ KEYPOINT     10 USED FOR KEYPOINT(S)      52
+ KEYPOINT     12 USED FOR KEYPOINT(S)      58
+ KEYPOINT     11 USED FOR KEYPOINT(S)      57
+ KEYPOINT      9 USED FOR KEYPOINT(S)      51
+ KEYPOINT     13 USED FOR KEYPOINT(S)      54
+ KEYPOINT     14 USED FOR KEYPOINT(S)      61
+ KEYPOINT     15 USED FOR KEYPOINT(S)      64
+ KEYPOINT     16 USED FOR KEYPOINT(S)      55
+ KEYPOINT     18 USED FOR KEYPOINT(S)      60
+ KEYPOINT     20 USED FOR KEYPOINT(S)      66
+ KEYPOINT     19 USED FOR KEYPOINT(S)      65
+ KEYPOINT     17 USED FOR KEYPOINT(S)      59
+ KEYPOINT     21 USED FOR KEYPOINT(S)      62
+ KEYPOINT     22 USED FOR KEYPOINT(S)      69
+ KEYPOINT     23 USED FOR KEYPOINT(S)      72
+ KEYPOINT     24 USED FOR KEYPOINT(S)      63
+ KEYPOINT     26 USED FOR KEYPOINT(S)      68
+ KEYPOINT     28 USED FOR KEYPOINT(S)      74
+ KEYPOINT     27 USED FOR KEYPOINT(S)      73
+ KEYPOINT     25 USED FOR KEYPOINT(S)      67
+ KEYPOINT     29 USED FOR KEYPOINT(S)      70
+ KEYPOINT     30 USED FOR KEYPOINT(S)      77
+ KEYPOINT     31 USED FOR KEYPOINT(S)      80
+ KEYPOINT     32 USED FOR KEYPOINT(S)      71
+ KEYPOINT     34 USED FOR KEYPOINT(S)      76
+ KEYPOINT     36 USED FOR KEYPOINT(S)      82
+ KEYPOINT     35 USED FOR KEYPOINT(S)      81
+ KEYPOINT     33 USED FOR KEYPOINT(S)      75
+ KEYPOINT     37 USED FOR KEYPOINT(S)      78
+ KEYPOINT     38 USED FOR KEYPOINT(S)      85
+ KEYPOINT     39 USED FOR KEYPOINT(S)      88
+ KEYPOINT     40 USED FOR KEYPOINT(S)      79
+ KEYPOINT     42 USED FOR KEYPOINT(S)      84
+ KEYPOINT     41 USED FOR KEYPOINT(S)      83
+ KEYPOINT     45 USED FOR KEYPOINT(S)      86
+ KEYPOINT     48 USED FOR KEYPOINT(S)      87
+ KEYPOINT     91 USED FOR KEYPOINT(S)     113
+ KEYPOINT     92 USED FOR KEYPOINT(S)     114
+ KEYPOINT     93 USED FOR KEYPOINT(S)     115
+ KEYPOINT     94 USED FOR KEYPOINT(S)     116
+ KEYPOINT     95 USED FOR KEYPOINT(S)     117
+ KEYPOINT     96 USED FOR KEYPOINT(S)     118
+ KEYPOINT     97 USED FOR KEYPOINT(S)     119
+ KEYPOINT     98 USED FOR KEYPOINT(S)     120
+ KEYPOINT     99 USED FOR KEYPOINT(S)     121
+ KEYPOINT    100 USED FOR KEYPOINT(S)     122
+ KEYPOINT    101 USED FOR KEYPOINT(S)     123
+ KEYPOINT    102 USED FOR KEYPOINT(S)     124
+ KEYPOINT    103 USED FOR KEYPOINT(S)     125
+ KEYPOINT    104 USED FOR KEYPOINT(S)     126
+ KEYPOINT    105 USED FOR KEYPOINT(S)     127
+ KEYPOINT    106 USED FOR KEYPOINT(S)     128
+ KEYPOINT    107 USED FOR KEYPOINT(S)     129
+ KEYPOINT    108 USED FOR KEYPOINT(S)     130
+ KEYPOINT    109 USED FOR KEYPOINT(S)     131
+ KEYPOINT    110 USED FOR KEYPOINT(S)     132
+ KEYPOINT    134 USED FOR KEYPOINT(S)     157
+ KEYPOINT    135 USED FOR KEYPOINT(S)     160
+ KEYPOINT    137 USED FOR KEYPOINT(S)     158
+ KEYPOINT    138 USED FOR KEYPOINT(S)     161
+ KEYPOINT    139 USED FOR KEYPOINT(S)     164
+ KEYPOINT    140 USED FOR KEYPOINT(S)     159
+ KEYPOINT    141 USED FOR KEYPOINT(S)     162
+ KEYPOINT    142 USED FOR KEYPOINT(S)     165
+ KEYPOINT    143 USED FOR KEYPOINT(S)     168
+ KEYPOINT    144 USED FOR KEYPOINT(S)     163
+ KEYPOINT    145 USED FOR KEYPOINT(S)     166
+ KEYPOINT    146 USED FOR KEYPOINT(S)     169
+ KEYPOINT    147 USED FOR KEYPOINT(S)     172
+ KEYPOINT    148 USED FOR KEYPOINT(S)     167
+ KEYPOINT    149 USED FOR KEYPOINT(S)     170
+ KEYPOINT    150 USED FOR KEYPOINT(S)     173
+ KEYPOINT    151 USED FOR KEYPOINT(S)     176
+ KEYPOINT    152 USED FOR KEYPOINT(S)     171
+ KEYPOINT    153 USED FOR KEYPOINT(S)     174
+ KEYPOINT    156 USED FOR KEYPOINT(S)     175
+ KEYPOINT    178 USED FOR KEYPOINT(S)     201
+ KEYPOINT    179 USED FOR KEYPOINT(S)     204
+ KEYPOINT    181 USED FOR KEYPOINT(S)     202
+ KEYPOINT    182 USED FOR KEYPOINT(S)     205
+ KEYPOINT    183 USED FOR KEYPOINT(S)     208
+ KEYPOINT    184 USED FOR KEYPOINT(S)     203
+ KEYPOINT    185 USED FOR KEYPOINT(S)     206
+ KEYPOINT    186 USED FOR KEYPOINT(S)     209
+ KEYPOINT    187 USED FOR KEYPOINT(S)     212
+ KEYPOINT    188 USED FOR KEYPOINT(S)     207
+ KEYPOINT    189 USED FOR KEYPOINT(S)     210
+ KEYPOINT    190 USED FOR KEYPOINT(S)     213
+ KEYPOINT    191 USED FOR KEYPOINT(S)     216
+ KEYPOINT    192 USED FOR KEYPOINT(S)     211
+ KEYPOINT    193 USED FOR KEYPOINT(S)     214
+ KEYPOINT    194 USED FOR KEYPOINT(S)     217
+ KEYPOINT    195 USED FOR KEYPOINT(S)     220
+ KEYPOINT    196 USED FOR KEYPOINT(S)     215
+ KEYPOINT    197 USED FOR KEYPOINT(S)     218
+ KEYPOINT    200 USED FOR KEYPOINT(S)     219
+ KEYPOINT    222 USED FOR KEYPOINT(S)     245
+ KEYPOINT    223 USED FOR KEYPOINT(S)     248
+ KEYPOINT    225 USED FOR KEYPOINT(S)     246
+ KEYPOINT    226 USED FOR KEYPOINT(S)     249
+ KEYPOINT    227 USED FOR KEYPOINT(S)     252
+ KEYPOINT    228 USED FOR KEYPOINT(S)     247
+ KEYPOINT    229 USED FOR KEYPOINT(S)     250
+ KEYPOINT    230 USED FOR KEYPOINT(S)     253
+ KEYPOINT    231 USED FOR KEYPOINT(S)     256
+ KEYPOINT    232 USED FOR KEYPOINT(S)     251
+ KEYPOINT    233 USED FOR KEYPOINT(S)     254
+ KEYPOINT    234 USED FOR KEYPOINT(S)     257
+ KEYPOINT    235 USED FOR KEYPOINT(S)     260
+ KEYPOINT    236 USED FOR KEYPOINT(S)     255
+ KEYPOINT    237 USED FOR KEYPOINT(S)     258
+ KEYPOINT    238 USED FOR KEYPOINT(S)     261
+ KEYPOINT    239 USED FOR KEYPOINT(S)     264
+ KEYPOINT    240 USED FOR KEYPOINT(S)     259
+ KEYPOINT    241 USED FOR KEYPOINT(S)     262
+ KEYPOINT    244 USED FOR KEYPOINT(S)     263
+ 
+ LINE      3 USED FOR LINE(S)     73
+ LINE      6 USED FOR LINE(S)     80
+ LINE     10 USED FOR LINE(S)     81
+ LINE     11 USED FOR LINE(S)     84
+ LINE     15 USED FOR LINE(S)     85
+ LINE     13 USED FOR LINE(S)     75
+ LINE     18 USED FOR LINE(S)     92
+ LINE     20 USED FOR LINE(S)     78
+ LINE     21 USED FOR LINE(S)     82
+ LINE     22 USED FOR LINE(S)     93
+ LINE     24 USED FOR LINE(S)     83
+ LINE     23 USED FOR LINE(S)     96
+ LINE     27 USED FOR LINE(S)     97
+ LINE     25 USED FOR LINE(S)     87
+ LINE     30 USED FOR LINE(S)    104
+ LINE     32 USED FOR LINE(S)     90
+ LINE     33 USED FOR LINE(S)     94
+ LINE     34 USED FOR LINE(S)    105
+ LINE     36 USED FOR LINE(S)     95
+ LINE     35 USED FOR LINE(S)    108
+ LINE     39 USED FOR LINE(S)    109
+ LINE     37 USED FOR LINE(S)     99
+ LINE     42 USED FOR LINE(S)    116
+ LINE     44 USED FOR LINE(S)    102
+ LINE     45 USED FOR LINE(S)    106
+ LINE     46 USED FOR LINE(S)    117
+ LINE     48 USED FOR LINE(S)    107
+ LINE     47 USED FOR LINE(S)    120
+ LINE     51 USED FOR LINE(S)    121
+ LINE     49 USED FOR LINE(S)    111
+ LINE     54 USED FOR LINE(S)    128
+ LINE     56 USED FOR LINE(S)    114
+ LINE     57 USED FOR LINE(S)    118
+ LINE     58 USED FOR LINE(S)    129
+ LINE     60 USED FOR LINE(S)    119
+ LINE     59 USED FOR LINE(S)    132
+ LINE     61 USED FOR LINE(S)    123
+ LINE     68 USED FOR LINE(S)    126
+ LINE     69 USED FOR LINE(S)    130
+ LINE     72 USED FOR LINE(S)    131
+ LINE    135 USED FOR LINE(S)    181
+ LINE    139 USED FOR LINE(S)    186
+ LINE    140 USED FOR LINE(S)    185
+ LINE    141 USED FOR LINE(S)    183
+ LINE    143 USED FOR LINE(S)    189
+ LINE    145 USED FOR LINE(S)    188
+ LINE    146 USED FOR LINE(S)    187
+ LINE    147 USED FOR LINE(S)    194
+ LINE    148 USED FOR LINE(S)    193
+ LINE    149 USED FOR LINE(S)    191
+ LINE    151 USED FOR LINE(S)    197
+ LINE    153 USED FOR LINE(S)    196
+ LINE    154 USED FOR LINE(S)    195
+ LINE    155 USED FOR LINE(S)    202
+ LINE    156 USED FOR LINE(S)    201
+ LINE    157 USED FOR LINE(S)    199
+ LINE    159 USED FOR LINE(S)    205
+ LINE    161 USED FOR LINE(S)    204
+ LINE    162 USED FOR LINE(S)    203
+ LINE    163 USED FOR LINE(S)    210
+ LINE    164 USED FOR LINE(S)    209
+ LINE    165 USED FOR LINE(S)    207
+ LINE    167 USED FOR LINE(S)    213
+ LINE    169 USED FOR LINE(S)    212
+ LINE    170 USED FOR LINE(S)    211
+ LINE    171 USED FOR LINE(S)    218
+ LINE    172 USED FOR LINE(S)    217
+ LINE    173 USED FOR LINE(S)    215
+ LINE    177 USED FOR LINE(S)    220
+ LINE    178 USED FOR LINE(S)    219
+ LINE    222 USED FOR LINE(S)    272
+ LINE    226 USED FOR LINE(S)    273
+ LINE    227 USED FOR LINE(S)    276
+ LINE    230 USED FOR LINE(S)    280
+ LINE    232 USED FOR LINE(S)    270
+ LINE    233 USED FOR LINE(S)    274
+ LINE    234 USED FOR LINE(S)    281
+ LINE    235 USED FOR LINE(S)    284
+ LINE    236 USED FOR LINE(S)    275
+ LINE    238 USED FOR LINE(S)    288
+ LINE    240 USED FOR LINE(S)    278
+ LINE    241 USED FOR LINE(S)    282
+ LINE    242 USED FOR LINE(S)    289
+ LINE    243 USED FOR LINE(S)    292
+ LINE    244 USED FOR LINE(S)    283
+ LINE    246 USED FOR LINE(S)    296
+ LINE    248 USED FOR LINE(S)    286
+ LINE    249 USED FOR LINE(S)    290
+ LINE    250 USED FOR LINE(S)    297
+ LINE    251 USED FOR LINE(S)    300
+ LINE    252 USED FOR LINE(S)    291
+ LINE    254 USED FOR LINE(S)    304
+ LINE    256 USED FOR LINE(S)    294
+ LINE    257 USED FOR LINE(S)    298
+ LINE    258 USED FOR LINE(S)    305
+ LINE    259 USED FOR LINE(S)    308
+ LINE    260 USED FOR LINE(S)    299
+ LINE    264 USED FOR LINE(S)    302
+ LINE    265 USED FOR LINE(S)    306
+ LINE    268 USED FOR LINE(S)    307
+ LINE    310 USED FOR LINE(S)    360
+ LINE    314 USED FOR LINE(S)    361
+ LINE    315 USED FOR LINE(S)    364
+ LINE    318 USED FOR LINE(S)    368
+ LINE    320 USED FOR LINE(S)    358
+ LINE    321 USED FOR LINE(S)    362
+ LINE    322 USED FOR LINE(S)    369
+ LINE    323 USED FOR LINE(S)    372
+ LINE    324 USED FOR LINE(S)    363
+ LINE    326 USED FOR LINE(S)    376
+ LINE    328 USED FOR LINE(S)    366
+ LINE    329 USED FOR LINE(S)    370
+ LINE    330 USED FOR LINE(S)    377
+ LINE    331 USED FOR LINE(S)    380
+ LINE    332 USED FOR LINE(S)    371
+ LINE    334 USED FOR LINE(S)    384
+ LINE    336 USED FOR LINE(S)    374
+ LINE    337 USED FOR LINE(S)    378
+ LINE    338 USED FOR LINE(S)    385
+ LINE    339 USED FOR LINE(S)    388
+ LINE    340 USED FOR LINE(S)    379
+ LINE    342 USED FOR LINE(S)    392
+ LINE    344 USED FOR LINE(S)    382
+ LINE    345 USED FOR LINE(S)    386
+ LINE    346 USED FOR LINE(S)    393
+ LINE    347 USED FOR LINE(S)    396
+ LINE    348 USED FOR LINE(S)    387
+ LINE    352 USED FOR LINE(S)    390
+ LINE    353 USED FOR LINE(S)    394
+ LINE    356 USED FOR LINE(S)    395
+ LINE    398 USED FOR LINE(S)    448
+ LINE    402 USED FOR LINE(S)    449
+ LINE    403 USED FOR LINE(S)    452
+ LINE    406 USED FOR LINE(S)    456
+ LINE    408 USED FOR LINE(S)    446
+ LINE    409 USED FOR LINE(S)    450
+ LINE    410 USED FOR LINE(S)    457
+ LINE    411 USED FOR LINE(S)    460
+ LINE    412 USED FOR LINE(S)    451
+ LINE    414 USED FOR LINE(S)    464
+ LINE    416 USED FOR LINE(S)    454
+ LINE    417 USED FOR LINE(S)    458
+ LINE    418 USED FOR LINE(S)    465
+ LINE    419 USED FOR LINE(S)    468
+ LINE    420 USED FOR LINE(S)    459
+ LINE    422 USED FOR LINE(S)    472
+ LINE    424 USED FOR LINE(S)    462
+ LINE    425 USED FOR LINE(S)    466
+ LINE    426 USED FOR LINE(S)    473
+ LINE    427 USED FOR LINE(S)    476
+ LINE    428 USED FOR LINE(S)    467
+ LINE    430 USED FOR LINE(S)    480
+ LINE    432 USED FOR LINE(S)    470
+ LINE    433 USED FOR LINE(S)    474
+ LINE    434 USED FOR LINE(S)    481
+ LINE    435 USED FOR LINE(S)    484
+ LINE    436 USED FOR LINE(S)    475
+ LINE    440 USED FOR LINE(S)    478
+ LINE    441 USED FOR LINE(S)    482
+ LINE    444 USED FOR LINE(S)    483
+ AREA      6 USED FOR AREA(S)     41
+ AREA     11 USED FOR AREA(S)     42
+ AREA     12 USED FOR AREA(S)     47
+ AREA     17 USED FOR AREA(S)     48
+ AREA     18 USED FOR AREA(S)     53
+ AREA     23 USED FOR AREA(S)     54
+ AREA     24 USED FOR AREA(S)     59
+ AREA     29 USED FOR AREA(S)     60
+ AREA     30 USED FOR AREA(S)     65
+ AREA     35 USED FOR AREA(S)     66
+ AREA     70 USED FOR AREA(S)     98
+ AREA     73 USED FOR AREA(S)    100
+ AREA     75 USED FOR AREA(S)    103
+ AREA     78 USED FOR AREA(S)    105
+ AREA     80 USED FOR AREA(S)    108
+ AREA     83 USED FOR AREA(S)    110
+ AREA     85 USED FOR AREA(S)    113
+ AREA     88 USED FOR AREA(S)    115
+ AREA     90 USED FOR AREA(S)    118
+ AREA     93 USED FOR AREA(S)    120
+ AREA    124 USED FOR AREA(S)    156
+ AREA    129 USED FOR AREA(S)    161
+ AREA    131 USED FOR AREA(S)    154
+ AREA    134 USED FOR AREA(S)    166
+ AREA    136 USED FOR AREA(S)    159
+ AREA    139 USED FOR AREA(S)    171
+ AREA    141 USED FOR AREA(S)    164
+ AREA    144 USED FOR AREA(S)    176
+ AREA    146 USED FOR AREA(S)    169
+ AREA    151 USED FOR AREA(S)    174
+ AREA    179 USED FOR AREA(S)    211
+ AREA    184 USED FOR AREA(S)    216
+ AREA    186 USED FOR AREA(S)    209
+ AREA    189 USED FOR AREA(S)    221
+ AREA    191 USED FOR AREA(S)    214
+ AREA    194 USED FOR AREA(S)    226
+ AREA    196 USED FOR AREA(S)    219
+ AREA    199 USED FOR AREA(S)    231
+ AREA    201 USED FOR AREA(S)    224
+ AREA    206 USED FOR AREA(S)    229
+ AREA    234 USED FOR AREA(S)    266
+ AREA    239 USED FOR AREA(S)    271
+ AREA    241 USED FOR AREA(S)    264
+ AREA    244 USED FOR AREA(S)    276
+ AREA    246 USED FOR AREA(S)    269
+ AREA    249 USED FOR AREA(S)    281
+ AREA    251 USED FOR AREA(S)    274
+ AREA    254 USED FOR AREA(S)    286
+ AREA    256 USED FOR AREA(S)    279
+ AREA    261 USED FOR AREA(S)    284
+
+ PREP7:
+
+ SELECT       FOR ITEM=LOC  COMPONENT=Z     BETWEEN 0.13322E-01 AND  0.26644E-01
+   KABS=  0.  TOLERANCE= 0.133222E-09
+
+       11  VOLUMES (OF       55  DEFINED) SELECTED BY  VSEL  COMMAND.
+
+ PREP7:
+
+ SET ATTRIBUTES FOR ALL SELECTED VOLUMES
+      MAT =    6   REAL =       1   TYPE =    6   ESYS =    0   SECT =    0
+
+ ATTRIBUTES SET FOR     11 VOLUMES (OUT OF     11 SELECTED)
+
+ PREP7:
+
+ SELECT ALL ENTITIES OF TYPE= ALL  AND BELOW
+
+ PREP7:
+
+ PREP7:
+
+ MATERIAL         1     EX   =   4500000.      
+
+ PREP7:
+
+ MATERIAL         1     DENS =   1065.000      
+
+ PREP7:
+
+ MATERIAL         1     ALPX =  0.6600000E-03  
+
+ PREP7:
+
+ MATERIAL         1     REFT =   21.00000      
+
+ PREP7:
+
+ MATERIAL         1     NUXY =  0.3000000      
+
+ PREP7:
+
+ MATERIAL         1     KXX  =   20.30000      
+
+ PREP7:
+
+ MATERIAL         1     C    =   800.0000      
+
+ PREP7:
+
+ ELEMENT TYPE      1 IS SOLID70      3-D THERMAL SOLID           
+  KEYOPT( 1- 6)=        0      0      0        0      0      0
+  KEYOPT( 7-12)=        0      0      0        0      0      0
+  KEYOPT(13-18)=        0      0      0        0      0      0
+
+ CURRENT NODAL DOF SET IS  TEMP
+  THREE-DIMENSIONAL MODEL
+
+ PREP7:
+
+ PREP7:
+
+ MATERIAL         2     EX   =  0.6000000E+11  
+
+ PREP7:
+
+ MATERIAL         2     DENS =   7950.000      
+
+ PREP7:
+
+ MATERIAL         2     ALPX =  0.2000000E-05  
+
+ PREP7:
+
+ MATERIAL         2     REFT =   21.00000      
+
+ PREP7:
+
+ MATERIAL         2     NUXY =  0.3500000      
+
+ PREP7:
+
+ MATERIAL         2     KXX  =  0.2200000E-01  
+
+ PREP7:
+
+ MATERIAL         2     C    =   420.0000      
+
+ PREP7:
+
+ ELEMENT TYPE      2 IS SOLID70      3-D THERMAL SOLID           
+  KEYOPT( 1- 6)=        0      0      0        0      0      0
+  KEYOPT( 7-12)=        0      0      0        0      0      0
+  KEYOPT(13-18)=        0      0      0        0      0      0
+
+ CURRENT NODAL DOF SET IS  TEMP
+  THREE-DIMENSIONAL MODEL
+
+ PREP7:
+
+ PREP7:
+
+ MATERIAL         3     EX   =   4500000.      
+
+ PREP7:
+
+ MATERIAL         3     DENS =   1065.000      
+
+ PREP7:
+
+ MATERIAL         3     ALPX =  0.6600000E-03  
+
+ PREP7:
+
+ MATERIAL         3     REFT =   21.00000      
+
+ PREP7:
+
+ MATERIAL         3     NUXY =  0.3000000      
+
+ PREP7:
+
+ MATERIAL         3     KXX  =   20.30000      
+
+ PREP7:
+
+ MATERIAL         2     C    =   800.0000      
+
+ PREP7:
+
+ ELEMENT TYPE      3 IS SOLID70      3-D THERMAL SOLID           
+  KEYOPT( 1- 6)=        0      0      0        0      0      0
+  KEYOPT( 7-12)=        0      0      0        0      0      0
+  KEYOPT(13-18)=        0      0      0        0      0      0
+
+ CURRENT NODAL DOF SET IS  TEMP
+  THREE-DIMENSIONAL MODEL
+
+ PREP7:
+
+ PREP7:
+
+ MATERIAL         4     EX   =   5000000.      
+
+ PREP7:
+
+ MATERIAL         4     DENS =   1120.000      
+
+ PREP7:
+
+ MATERIAL         4     ALPX =  0.1920000E-05  
+
+ PREP7:
+
+ MATERIAL         4     REFT =   21.00000      
+
+ PREP7:
+
+ MATERIAL         4     NUXY =  0.3000000      
+
+ PREP7:
+
+ MATERIAL         4     KXX  =  0.2000000      
+
+ PREP7:
+
+ MATERIAL         2     C    =   1000.000      
+
+ PREP7:
+
+ ELEMENT TYPE      4 IS SOLID70      3-D THERMAL SOLID           
+  KEYOPT( 1- 6)=        0      0      0        0      0      0
+  KEYOPT( 7-12)=        0      0      0        0      0      0
+  KEYOPT(13-18)=        0      0      0        0      0      0
+
+ CURRENT NODAL DOF SET IS  TEMP
+  THREE-DIMENSIONAL MODEL
+
+ PREP7:
+
+ PREP7:
+
+ MATERIAL         5     EX   =   5000000.      
+
+ PREP7:
+
+ MATERIAL         5     DENS =   1120.000      
+
+ PREP7:
+
+ MATERIAL         5     ALPX =  0.1920000E-05  
+
+ PREP7:
+
+ MATERIAL         5     REFT =   21.00000      
+
+ PREP7:
+
+ MATERIAL         5     NUXY =  0.3000000      
+
+ PREP7:
+
+ MATERIAL         5     KXX  =  0.2000000      
+
+ PREP7:
+
+ MATERIAL         2     C    =   1000.000      
+
+ PREP7:
+
+ ELEMENT TYPE      5 IS SOLID70      3-D THERMAL SOLID           
+  KEYOPT( 1- 6)=        0      0      0        0      0      0
+  KEYOPT( 7-12)=        0      0      0        0      0      0
+  KEYOPT(13-18)=        0      0      0        0      0      0
+
+ CURRENT NODAL DOF SET IS  TEMP
+  THREE-DIMENSIONAL MODEL
+
+ PREP7:
+
+ PREP7:
+
+ MATERIAL         6     EX   =  0.1861000E+08  
+
+ PREP7:
+
+ MATERIAL         6     DENS =   9800.000      
+
+ PREP7:
+
+ MATERIAL         6     ALPX =  0.2000000E-05  
+
+ PREP7:
+
+ MATERIAL         6     REFT =   21.00000      
+
+ PREP7:
+
+ MATERIAL         6     NUXY =  0.3000000      
+
+ PREP7:
+
+ MATERIAL         6     KXX  =  0.5000000      
+
+ PREP7:
+
+ MATERIAL         6     C    =   1000.000      
+
+ PREP7:
+
+ ELEMENT TYPE      6 IS SOLID70      3-D THERMAL SOLID           
+  KEYOPT( 1- 6)=        0      0      0        0      0      0
+  KEYOPT( 7-12)=        0      0      0        0      0      0
+  KEYOPT(13-18)=        0      0      0        0      0      0
+
+ CURRENT NODAL DOF SET IS  TEMP
+  THREE-DIMENSIONAL MODEL
+
+ PREP7:
+
+ PREP7:
+
+ DEFAULT ELEMENT DIVISIONS PER LINE BASED ON ELEMENT SIZE =  0.200E-03
+
+ PREP7:
+
+ PREP7:
+
+ SELECT ALL ENTITIES OF TYPE= ALL  AND BELOW
+
+ PREP7:
+
+ GENERATE NODES AND ELEMENTS   IN  ALL  SELECTED VOLUMES  
+
+ Initiating meshing of volume 1 exterior.                                
+
+ Meshing of volume 1 exterior is complete.  Facet count = 528.           
+
+ Initiating meshing of volume 1 interior.                                
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 1 is complete.                                        
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 2 exterior.                                
+
+ Meshing of volume 2 exterior is complete.  Facet count = 528.           
+
+ Initiating meshing of volume 2 interior.                                
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 2 is complete.                                        
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 3 exterior.                                
+
+ Meshing of volume 3 exterior is complete.  Facet count = 528.           
+
+ Initiating meshing of volume 3 interior.                                
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 3 is complete.                                        
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 4 exterior.                                
+
+ Meshing of volume 4 exterior is complete.  Facet count = 528.           
+
+ Initiating meshing of volume 4 interior.                                
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 4 is complete.                                        
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 5 exterior.                                
+
+ Meshing of volume 5 exterior is complete.  Facet count = 528.           
+
+ Initiating meshing of volume 5 interior.                                
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 5 is complete.                                        
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 6 exterior.                                
+
+ Meshing of volume 6 exterior is complete.  Facet count = 528.           
+
+ Initiating meshing of volume 6 interior.                                
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 6 is complete.                                        
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 7 exterior.                                
+
+ Meshing of volume 7 exterior is complete.  Facet count = 394.           
+
+ Initiating meshing of volume 7 interior.                                
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 7 is complete.                                        
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 8 exterior.                                
+
+ Meshing of volume 8 exterior is complete.  Facet count = 394.           
+
+ Initiating meshing of volume 8 interior.                                
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 8 is complete.                                        
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 9 exterior.                                
+
+ Meshing of volume 9 exterior is complete.  Facet count = 394.           
+
+ Initiating meshing of volume 9 interior.                                
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 9 is complete.                                        
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 10 exterior.                               
+
+ Meshing of volume 10 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 10 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 10 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 11 exterior.                               
+
+ Meshing of volume 11 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 11 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 11 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 12 exterior.                               
+
+ Meshing of volume 12 exterior is complete.  Facet count = 8836.         
+
+ Initiating meshing of volume 12 interior.                               
+  Estimated number of elements to fill this volume = 8320.               
+  Estimated number of nodes = 12870.                                     
+
+ Meshing of volume 12 is complete.                                       
+  Now storing 4032 nodes and 8320 elements.                              
+
+ Initiating meshing of volume 13 exterior.                               
+
+ Meshing of volume 13 exterior is complete.  Facet count = 8836.         
+
+ Initiating meshing of volume 13 interior.                               
+  Estimated number of elements to fill this volume = 8320.               
+  Estimated number of nodes = 12870.                                     
+
+ Meshing of volume 13 is complete.                                       
+  Now storing 4032 nodes and 8320 elements.                              
+
+ Initiating meshing of volume 14 exterior.                               
+
+ Meshing of volume 14 exterior is complete.  Facet count = 8836.         
+
+ Initiating meshing of volume 14 interior.                               
+  Estimated number of elements to fill this volume = 8320.               
+  Estimated number of nodes = 12870.                                     
+
+ Meshing of volume 14 is complete.                                       
+  Now storing 4032 nodes and 8320 elements.                              
+
+ Initiating meshing of volume 15 exterior.                               
+
+ Meshing of volume 15 exterior is complete.  Facet count = 8836.         
+
+ Initiating meshing of volume 15 interior.                               
+  Estimated number of elements to fill this volume = 8320.               
+  Estimated number of nodes = 12870.                                     
+
+ Meshing of volume 15 is complete.                                       
+  Now storing 4032 nodes and 8320 elements.                              
+
+ Initiating meshing of volume 16 exterior.                               
+
+ Meshing of volume 16 exterior is complete.  Facet count = 8836.         
+
+ Initiating meshing of volume 16 interior.                               
+  Estimated number of elements to fill this volume = 8320.               
+  Estimated number of nodes = 12870.                                     
+
+ Meshing of volume 16 is complete.                                       
+  Now storing 4032 nodes and 8320 elements.                              
+
+ Initiating meshing of volume 17 exterior.                               
+
+ Meshing of volume 17 exterior is complete.  Facet count = 8836.         
+
+ Initiating meshing of volume 17 interior.                               
+  Estimated number of elements to fill this volume = 8320.               
+  Estimated number of nodes = 12870.                                     
+
+ Meshing of volume 17 is complete.                                       
+  Now storing 4032 nodes and 8320 elements.                              
+
+ Initiating meshing of volume 18 exterior.                               
+
+ Meshing of volume 18 exterior is complete.  Facet count = 8578.         
+
+ Initiating meshing of volume 18 interior.                               
+  Estimated number of elements to fill this volume = 4160.               
+  Estimated number of nodes = 8580.                                      
+
+ Meshing of volume 18 is complete.                                       
+  Now storing 0 nodes and 4160 elements.                                 
+
+ Initiating meshing of volume 19 exterior.                               
+
+ Meshing of volume 19 exterior is complete.  Facet count = 8578.         
+
+ Initiating meshing of volume 19 interior.                               
+  Estimated number of elements to fill this volume = 4160.               
+  Estimated number of nodes = 8580.                                      
+
+ Meshing of volume 19 is complete.                                       
+  Now storing 0 nodes and 4160 elements.                                 
+
+ Initiating meshing of volume 20 exterior.                               
+
+ Meshing of volume 20 exterior is complete.  Facet count = 8578.         
+
+ Initiating meshing of volume 20 interior.                               
+  Estimated number of elements to fill this volume = 4160.               
+  Estimated number of nodes = 8580.                                      
+
+ Meshing of volume 20 is complete.                                       
+  Now storing 0 nodes and 4160 elements.                                 
+
+ Initiating meshing of volume 21 exterior.                               
+
+ Meshing of volume 21 exterior is complete.  Facet count = 8578.         
+
+ Initiating meshing of volume 21 interior.                               
+  Estimated number of elements to fill this volume = 4160.               
+  Estimated number of nodes = 8580.                                      
+
+ Meshing of volume 21 is complete.                                       
+  Now storing 0 nodes and 4160 elements.                                 
+
+ Initiating meshing of volume 22 exterior.                               
+
+ Meshing of volume 22 exterior is complete.  Facet count = 8578.         
+
+ Initiating meshing of volume 22 interior.                               
+  Estimated number of elements to fill this volume = 4160.               
+  Estimated number of nodes = 8580.                                      
+
+ Meshing of volume 22 is complete.                                       
+  Now storing 0 nodes and 4160 elements.                                 
+
+ Initiating meshing of volume 23 exterior.                               
+
+ Meshing of volume 23 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 23 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 23 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 24 exterior.                               
+
+ Meshing of volume 24 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 24 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 24 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 25 exterior.                               
+
+ Meshing of volume 25 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 25 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 25 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 26 exterior.                               
+
+ Meshing of volume 26 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 26 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 26 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 27 exterior.                               
+
+ Meshing of volume 27 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 27 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 27 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 28 exterior.                               
+
+ Meshing of volume 28 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 28 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 28 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 29 exterior.                               
+
+ Meshing of volume 29 exterior is complete.  Facet count = 262.          
+
+ Initiating meshing of volume 29 interior.                               
+  Estimated number of elements to fill this volume = 65.                 
+  Estimated number of nodes = 264.                                       
+
+ Meshing of volume 29 is complete.                                       
+  Now storing 0 nodes and 65 elements.                                   
+
+ Initiating meshing of volume 30 exterior.                               
+
+ Meshing of volume 30 exterior is complete.  Facet count = 262.          
+
+ Initiating meshing of volume 30 interior.                               
+  Estimated number of elements to fill this volume = 65.                 
+  Estimated number of nodes = 264.                                       
+
+ Meshing of volume 30 is complete.                                       
+  Now storing 0 nodes and 65 elements.                                   
+
+ Initiating meshing of volume 31 exterior.                               
+
+ Meshing of volume 31 exterior is complete.  Facet count = 262.          
+
+ Initiating meshing of volume 31 interior.                               
+  Estimated number of elements to fill this volume = 65.                 
+  Estimated number of nodes = 264.                                       
+
+ Meshing of volume 31 is complete.                                       
+  Now storing 0 nodes and 65 elements.                                   
+
+ Initiating meshing of volume 32 exterior.                               
+
+ Meshing of volume 32 exterior is complete.  Facet count = 262.          
+
+ Initiating meshing of volume 32 interior.                               
+  Estimated number of elements to fill this volume = 65.                 
+  Estimated number of nodes = 264.                                       
+
+ Meshing of volume 32 is complete.                                       
+  Now storing 0 nodes and 65 elements.                                   
+
+ Initiating meshing of volume 33 exterior.                               
+
+ Meshing of volume 33 exterior is complete.  Facet count = 262.          
+
+ Initiating meshing of volume 33 interior.                               
+  Estimated number of elements to fill this volume = 65.                 
+  Estimated number of nodes = 264.                                       
+
+ Meshing of volume 33 is complete.                                       
+  Now storing 0 nodes and 65 elements.                                   
+
+ Initiating meshing of volume 34 exterior.                               
+
+ Meshing of volume 34 exterior is complete.  Facet count = 528.          
+
+ Initiating meshing of volume 34 interior.                               
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 34 is complete.                                       
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 35 exterior.                               
+
+ Meshing of volume 35 exterior is complete.  Facet count = 528.          
+
+ Initiating meshing of volume 35 interior.                               
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 35 is complete.                                       
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 36 exterior.                               
+
+ Meshing of volume 36 exterior is complete.  Facet count = 528.          
+
+ Initiating meshing of volume 36 interior.                               
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 36 is complete.                                       
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 37 exterior.                               
+
+ Meshing of volume 37 exterior is complete.  Facet count = 528.          
+
+ Initiating meshing of volume 37 interior.                               
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 37 is complete.                                       
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 38 exterior.                               
+
+ Meshing of volume 38 exterior is complete.  Facet count = 528.          
+
+ Initiating meshing of volume 38 interior.                               
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 38 is complete.                                       
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 39 exterior.                               
+
+ Meshing of volume 39 exterior is complete.  Facet count = 528.          
+
+ Initiating meshing of volume 39 interior.                               
+  Estimated number of elements to fill this volume = 260.                
+  Estimated number of nodes = 594.                                       
+
+ Meshing of volume 39 is complete.                                       
+  Now storing 64 nodes and 260 elements.                                 
+
+ Initiating meshing of volume 40 exterior.                               
+
+ Meshing of volume 40 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 40 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 40 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 41 exterior.                               
+
+ Meshing of volume 41 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 41 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 41 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 42 exterior.                               
+
+ Meshing of volume 42 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 42 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 42 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 43 exterior.                               
+
+ Meshing of volume 43 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 43 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 43 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 44 exterior.                               
+
+ Meshing of volume 44 exterior is complete.  Facet count = 394.          
+
+ Initiating meshing of volume 44 interior.                               
+  Estimated number of elements to fill this volume = 130.                
+  Estimated number of nodes = 396.                                       
+
+ Meshing of volume 44 is complete.                                       
+  Now storing 0 nodes and 130 elements.                                  
+
+ Initiating meshing of volume 45 exterior.                               
+
+ Meshing of volume 45 exterior is complete.  Facet count = 1868.         
+
+ Initiating meshing of volume 45 interior.                               
+  Estimated number of elements to fill this volume = 1560.               
+  Estimated number of nodes = 2574.                                      
+
+ Meshing of volume 45 is complete.                                       
+  Now storing 704 nodes and 1560 elements.                               
+
+ Initiating meshing of volume 46 exterior.                               
+
+ Meshing of volume 46 exterior is complete.  Facet count = 1868.         
+
+ Initiating meshing of volume 46 interior.                               
+  Estimated number of elements to fill this volume = 1560.               
+  Estimated number of nodes = 2574.                                      
+
+ Meshing of volume 46 is complete.                                       
+  Now storing 704 nodes and 1560 elements.                               
+
+ Initiating meshing of volume 47 exterior.                               
+
+ Meshing of volume 47 exterior is complete.  Facet count = 1868.         
+
+ Initiating meshing of volume 47 interior.                               
+  Estimated number of elements to fill this volume = 1560.               
+  Estimated number of nodes = 2574.                                      
+
+ Meshing of volume 47 is complete.                                       
+  Now storing 704 nodes and 1560 elements.                               
+
+ Initiating meshing of volume 48 exterior.                               
+
+ Meshing of volume 48 exterior is complete.  Facet count = 1868.         
+
+ Initiating meshing of volume 48 interior.                               
+  Estimated number of elements to fill this volume = 1560.               
+  Estimated number of nodes = 2574.                                      
+
+ Meshing of volume 48 is complete.                                       
+  Now storing 704 nodes and 1560 elements.                               
+
+ Initiating meshing of volume 49 exterior.                               
+
+ Meshing of volume 49 exterior is complete.  Facet count = 1868.         
+
+ Initiating meshing of volume 49 interior.                               
+  Estimated number of elements to fill this volume = 1560.               
+  Estimated number of nodes = 2574.                                      
+
+ Meshing of volume 49 is complete.                                       
+  Now storing 704 nodes and 1560 elements.                               
+
+ Initiating meshing of volume 50 exterior.                               
+
+ Meshing of volume 50 exterior is complete.  Facet count = 1868.         
+
+ Initiating meshing of volume 50 interior.                               
+  Estimated number of elements to fill this volume = 1560.               
+  Estimated number of nodes = 2574.                                      
+
+ Meshing of volume 50 is complete.                                       
+  Now storing 704 nodes and 1560 elements.                               
+
+ Initiating meshing of volume 51 exterior.                               
+
+ Meshing of volume 51 exterior is complete.  Facet count = 1714.         
+
+ Initiating meshing of volume 51 interior.                               
+  Estimated number of elements to fill this volume = 780.                
+  Estimated number of nodes = 1716.                                      
+
+ Meshing of volume 51 is complete.                                       
+  Now storing 0 nodes and 780 elements.                                  
+
+ Initiating meshing of volume 52 exterior.                               
+
+ Meshing of volume 52 exterior is complete.  Facet count = 1714.         
+
+ Initiating meshing of volume 52 interior.                               
+  Estimated number of elements to fill this volume = 780.                
+  Estimated number of nodes = 1716.                                      
+
+ Meshing of volume 52 is complete.                                       
+  Now storing 0 nodes and 780 elements.                                  
+
+ Initiating meshing of volume 53 exterior.                               
+
+ Meshing of volume 53 exterior is complete.  Facet count = 1714.         
+
+ Initiating meshing of volume 53 interior.                               
+  Estimated number of elements to fill this volume = 780.                
+  Estimated number of nodes = 1716.                                      
+
+ Meshing of volume 53 is complete.                                       
+  Now storing 0 nodes and 780 elements.                                  
+
+ Initiating meshing of volume 54 exterior.                               
+
+ Meshing of volume 54 exterior is complete.  Facet count = 1714.         
+
+ Initiating meshing of volume 54 interior.                               
+  Estimated number of elements to fill this volume = 780.                
+  Estimated number of nodes = 1716.                                      
+
+ Meshing of volume 54 is complete.                                       
+  Now storing 0 nodes and 780 elements.                                  
+
+ Initiating meshing of volume 55 exterior.                               
+
+ Meshing of volume 55 exterior is complete.  Facet count = 1714.         
+
+ Initiating meshing of volume 55 interior.                               
+  Estimated number of elements to fill this volume = 780.                
+  Estimated number of nodes = 1716.                                      
+
+ Meshing of volume 55 is complete.                                       
+  Now storing 0 nodes and 780 elements.                                  
+
+ NUMBER OF VOLUMES MESHED   =        55
+ MAXIMUM NODE NUMBER        =     97416
+ MAXIMUM ELEMENT NUMBER     =     89505
+
+ PREP7:
+
+ *** WARNING ***                         CP =       3.070   TIME= 15:29:12
+ /SHOW not specified or non-interactive run.                             
+  Command ignored.                                                       
+
+ PREP7:
+
+
+ ***** ROUTINE COMPLETED *****  CP =         3.070
+
+
+
+ *** NOTE ***                            CP =       3.070   TIME= 15:29:12
+ A total of 2 warnings and errors written to                             
+ /home/cs1bdh/sharc/bench1.smp.1/output.err.                             
+
+ BEGIN:
+
+ BEGIN:
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+ SOLU_LS1:
+
+
+ PERFORM A STATIC ANALYSIS
+  THIS WILL BE A NEW ANALYSIS
+
+ SOLU_LS1:
+
+ USE FRONTAL DIRECT SOLVER
+
+ SOLU_LS1:
+
+ REFERENCE TEMPERATURE=  25.000  (TUNIF=  25.000)
+
+ SOLU_LS1:
+
+ UNIFORM TEMPERATURE=    25.000  (TREF=    25.000)
+
+ SOLU_LS1:
+
+ SELECT       FOR ITEM=LOC  COMPONENT=Z     BETWEEN  0.0000     AND   0.0000    
+   KABS=  0.  TOLERANCE= 0.100000E-05
+
+       11  AREAS (OF      236  DEFINED) SELECTED BY  ASEL  COMMAND.
+
+ SOLU_LS1:
+
+ SURFACE LOAD ON ALL SELECTED AREAS 
+     LOAD KEY =1         LOAD LABEL = CONV
+     VALUES =           1.0000              20.000    
+
+ SOLU_LS1:
+
+ SELECT       FOR ITEM=LOC  COMPONENT=Z     BETWEEN 0.15602E-01 AND  0.15602E-01
+   KABS=  0.  TOLERANCE= 0.780109E-04
+
+       11  AREAS (OF      236  DEFINED) SELECTED BY  ASEL  COMMAND.
+
+ SOLU_LS1:
+
+ SURFACE LOAD ON ALL SELECTED AREAS 
+     LOAD KEY =1         LOAD LABEL = CONV
+     VALUES =           10.000              20.000    
+
+ SOLU_LS1:
+
+ PARAMETER K =     2.000000000    
+
+ SOLU_LS1:
+
+ SELECT       FOR ITEM=LOC  COMPONENT=Z     BETWEEN 0.12700E-01 AND  0.12972E-01
+   KABS=  0.  TOLERANCE= 0.271780E-11
+
+       11  VOLUMES (OF       55  DEFINED) SELECTED BY  VSEL  COMMAND.
+
+ SOLU_LS1:
+
+ RESELECT     FOR ITEM=LOC  COMPONENT=X     BETWEEN 0.25000E-03 AND  0.45936E-03
+   KABS=  0.  TOLERANCE= 0.209360E-11
+
+        1  VOLUMES (OF       55  DEFINED) SELECTED BY  VSEL  COMMAND.
+
+ SOLU_LS1:
+
+ SELECT      ELEMENTS CREATED FROM SELECTED VOLUMES.
+
+      260  ELEMENTS (OF    89505  DEFINED) SELECTED FROM
+        1 SELECTED VOLUMES BY  ESLV  COMMAND.
+
+ SOLU_LS1:
+
+ SPECIFIED BODY FORCE HGEN FOR ALL SELECTED ELEMENTS AT STARTING LOCATION      1
+    100000000.      0.00000000      0.00000000      0.00000000    
+
+ *** WARNING ***                         CP =       3.072   TIME= 15:29:12
+ Both solid model and finite element model boundary conditions have been 
+ applied to this model.  As solid loads are transferred to the nodes or  
+ elements, they can overwrite directly applied loads.                    
+
+ SOLU_LS1:
+
+ SELECT ALL ENTITIES OF TYPE= ALL  AND BELOW
+
+ SOLU_LS1:
+
+ SOLU_LS1:
+
+ *GET  WALL1     FROM  ACTI  ITEM=TIME WALL  VALUE=  15.4866667    
+
+ SOLU_LS1:
+
+ *GET  CPU1      FROM  ACTI  ITEM=TIME CPU   VALUE=  3.07219005    
+
+ SOLU_LS1:
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ TRANSFER SOLID MODEL BOUNDARY CONDITIONS TO FINITE ELEMENT MODEL
+      SURFACE LOADS  TRANSFERRED FROM AREAS         =   2210
+
+ *** NOTE ***                            CP =       3.198   TIME= 15:29:12
+ There is no title defined for this analysis.                            
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . TEMP
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** NOTE ***                            CP =       3.432   TIME= 15:29:12
+ Present time 0 is less than or equal to the previous time.  Time will   
+ default to 1.                                                           
+
+ *** NOTE ***                            CP =       3.818   TIME= 15:29:12
+ Results printout suppressed for interactive execute.                    
+
+ *** NOTE ***                            CP =       3.818   TIME= 15:29:12
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+ ** Reordering still in progress **                                      
+ ** Reordering still in progress **                                      
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   NUMBER OF SUBSTEPS. . . . . . . . . . . . . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS. . . . . . . . . . . .ALL DATA WRITTEN
+                                                  FOR THE LAST SUBSTEP
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= output.mntr                                                                                                                                                                                                                                                         
+
+ 
+ Estimated number of active degrees of freedom = 97416.                  
+ Maximum wavefront= 1234.                                                
+ 
+ Element Formation Element= 69000 Cum.  Iter.= 1 CP= 15.947              
+  Time= 1.0000 Load Step= 1 Substep= 1 Equilibrium Iteration= 1.         
+
+
+
+            **** CENTER OF MASS, MASS, AND MASS MOMENTS OF INERTIA ****
+
+  CALCULATIONS ASSUME ELEMENT MASS AT ELEMENT CENTROID
+
+  TOTAL MASS =  0.72400E-03
+
+                           MOM. OF INERTIA         MOM. OF INERTIA
+  CENTER OF MASS            ABOUT ORIGIN        ABOUT CENTER OF MASS
+
+  XC =  0.72968E-03      IXX =   0.1506E-06      IXX =   0.2443E-07
+  YC =  0.65000E-02      IYY =   0.1104E-06      IYY =   0.1437E-07
+  ZC =  0.11493E-01      IZZ =   0.4130E-07      IZZ =   0.1032E-07
+                         IXY =  -0.3434E-08      IXY =   0.1704E-20
+                         IYZ =  -0.5408E-07      IYZ =   0.3749E-19
+                         IZX =  -0.6071E-08      IZX =   0.4979E-20
+
+
+  *** MASS SUMMARY BY ELEMENT TYPE ***
+
+  TYPE      MASS
+     1  0.256601E-03
+     2  0.352836E-04
+     3  0.764600E-06
+     4  0.292801E-05
+     5  0.451738E-05
+     6  0.423903E-03
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 2.386030199E-03 at element 56290.                             
+ Minimum = 1.18511546E-06 at element 1254.                               
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+  TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+     1     70720  SOLID70      11.528   0.000163
+     2      1560  SOLID70       0.261   0.000167
+     3       650  SOLID70       0.082   0.000126
+     4      1105  SOLID70       0.170   0.000153
+     5      2210  SOLID70       0.343   0.000155
+     6     13260  SOLID70       1.982   0.000149
+ Time at end of element matrix formulation CP = 19.4069233.              
+ Time at end of matrix triangularization CP= 19.4070187.                 
+ Equation solver maximum pivot= 1.319196983E-02 at node 32753 TEMP.      
+ Equation solver minimum pivot= 2.244595585E-06 at node 3368 TEMP.       
+
+   *** ELEMENT RESULT CALCULATION TIMES
+  TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+     1     70720  SOLID70       0.846   0.000012
+     2      1560  SOLID70       0.020   0.000013
+     3       650  SOLID70       0.008   0.000012
+     4      1105  SOLID70       0.014   0.000012
+     5      2210  SOLID70       0.026   0.000012
+     6     13260  SOLID70       0.177   0.000013
+
+   *** NODAL LOAD CALCULATION TIMES
+  TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+     1     70720  SOLID70       0.146   0.000002
+     2      1560  SOLID70       0.003   0.000002
+     3       650  SOLID70       0.001   0.000002
+     4      1105  SOLID70       0.002   0.000002
+     5      2210  SOLID70       0.004   0.000002
+     6     13260  SOLID70       0.030   0.000002
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+   *** PROBLEM STATISTICS
+  ACTUAL NO. OF ACTIVE DEGREES OF FREEDOM =  97416
+  R.M.S. WAVEFRONT SIZE =  1200.4
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+      892.250 MB WRITTEN ON TRIANGULARIZED MATRIX FILE: output.tri
+       59.375 MB WRITTEN ON RESULTS FILE: output.rth
+
+ SOLU_LS2:
+
+ *GET  WALL2     FROM  ACTI  ITEM=TIME WALL  VALUE=  15.4941667    
+
+ SOLU_LS2:
+
+ *GET  CPU2      FROM  ACTI  ITEM=TIME CPU   VALUE=  21.8527699    
+
+ SOLU_LS2:
+
+ PARAMETER DELTAWLL =    0.7500000000E-02
+
+ SOLU_LS2:
+
+ PARAMETER DELTACPU =    0.5216827724E-02
+
+ SOLU_LS2:
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =        21.862
+
+
+
+ *** NOTE ***                            CP =      21.863   TIME= 15:29:39
+ A total of 3 warnings and errors written to                             
+ /home/cs1bdh/sharc/bench1.smp.1/output.err.                             
+
+ BEGIN:
+
+ BEGIN:
+
+ BEGIN:
+
+ /OUTPUT FILE= bench1.dat
+
+ BEGIN:
+
+ BEGIN:
+
+ BEGIN:
+
+ BEGIN:
+
+ BEGIN:
+
+ BEGIN:
+
+ BEGIN:
+
+ ***** END OF INPUT ENCOUNTERED *****
+
+ PURGE ALL SOLUTION AND POST DATA
+ SAVE ALL MODEL DATA
+
+ ALL CURRENT ANSYS DATA WRITTEN TO FILE NAME= output.db
+  FOR POSSIBLE RESUME FROM THIS POINT
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          3
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
+ DATA INPUT WRITTEN ON /home/cs1bdh/sharc/bench1.smp.1/output.log                                                                                                                                                                                                                          
+
++--------------------- A N S Y S   S T A T I S T I C S ------------------------+
+
+Release: Release 16.1       Build: 16.1       Update: UP20150325   Platform: LINUX x64   
+Date Run: 11/30/2017   Time: 15:29
+
+Processor Model: Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz
+
+Compiler: Intel(R) FORTRAN Compiler Version 14.0.0  (Build: 20140422)
+          Intel(R) C/C++ Compiler Version 14.0.0  (Build: 20140422)
+          Intel(R) Math Kernel Library Version 11.1.3 Product Build 20140917
+
+Total number of cores available         :   20
+Number of physical cores available      :   20
+Number of processes requested           :    1
+Number of threads per process requested :    1
+Total number of cores requested         :    1 (Shared Memory Parallel)                    
+
+GPU Acceleration: Not Requested
+
+Job Name: output
+Working Directory: /home/cs1bdh/sharc/bench1.smp.1
+
+Total CPU time for main thread                    :       20.8 seconds
+Total CPU time summed for all threads             :       22.2 seconds
+
+Elapsed time spent pre-processing model (/PREP7)  :        2.7 seconds
+Elapsed time spent solution - preprocessing       :        2.0 seconds
+Elapsed time spent computing solution             :       25.3 seconds
+Elapsed time spent solution - postprocessing      :        0.0 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+
+Maximum total memory used                         :      356.0 MB
+Maximum total memory allocated                    :    24000.0 MB
+Maximum total memory available                    :        504 GB
+
++------------------ E N D   A N S Y S   S T A T I S T I C S -------------------+
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                            ANSYS RUN COMPLETED                            |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys Release 16.1          Build 16.1         UP20150325     LINUX x64   |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)  1024 MB    Scratch Memory Requested     22912 MB |
+ | Maximum Database Used     252 MB    Maximum Scratch Memory Used    104 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =         22.190       Time  =  15:29:41        |
+ |        Elapsed Time (sec) =         34.000       Date  =  11/30/2017      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*
+Total time spent so far is  33  Seconds.
